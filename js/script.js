@@ -56,6 +56,8 @@ function loadData() {
                 $wikiElem.append('<li><a href="' + url + '">' + article + '</a></li>');
             };
 
+            clearTimeout(wikiRequestTimeout);
+
         }
     }); 
 
