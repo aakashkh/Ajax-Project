@@ -39,7 +39,7 @@ function loadData() {
     });
 
     // YOUR CODE GOES HERE! WIKI
-    var wikiUrl = 'http://en.kipedia.org/w/api.php?action=opensearch&search=' + city + '&format=json&callback=wikiCallback';
+    var wikiUrl = 'http://en.wikipedia.org/w/api.php?action=opensearch&search=' + city + '&format=json&callback=wikiCallback';
 
     var wikiRequestTimeout = setTimeout(function(){
         $wikiElem.text("failed to get wikipedia resources.");
